@@ -1,10 +1,7 @@
-n=10
-#i=1
+# We take range(11) since x,y,z <=10
 
-for x in range(n):
-    for y in range(n):
-        for z in range(n):
-            if x+y+z==n:
+for x in range(11):
+    for y in range(11):
+        for z in range(11):
+            if x+y+z==10:
                 print(f"x={x}, y={y}, z={z}")
-                #print(f"{i}. x={x}, y={y}, z={z}")
-                #i=i+1
