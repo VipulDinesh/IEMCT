@@ -21,7 +21,7 @@ Multiplication(*)
 Division(/)
 Modulus(%)
 Exponent(**)
-    """)
+""")
 
     a=int(input("Enter number 1: "))
     b=int(input("Enter number 2: "))
@@ -41,8 +41,8 @@ Exponent(**)
         case "Exp":
             print(Exponent(a,b))
         case "default":
-            print("Invalid Input")
+            print("Invalid Operator")
 
-    rep = input("\nRepeat?[y/n]: ")
+    rep = input("\nRepeat?[y/n]: ")  # Continuous input to calculator until explicitly stopped
     if rep.lower()=="n":
         break
